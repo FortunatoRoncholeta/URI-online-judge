@@ -1,0 +1,16 @@
+# CALUCULO SIMPLES
+# COMO A ENTRADA CONTEM APENAS DUAS LINHAS PRECISA-SE ULTILIZAR 
+# O COMANDO SPLIT PARA TRASFORMAR OS IMPUTS (P,N,V) EM UM UNICO IMPUT(LINHA)
+P1,N1,V1 = input().split()
+P1 = int(P1)
+N1 = int(N1)
+V1 = float(V1)
+
+P2,N2,V2 = input().split()
+P2 = int(P2)
+N2 = int(N2)
+V2 = float(V2)
+
+SOMA = (N1*V1 + N2*V2)
+
+print('VALOR A PAGAR: R$ {:.2f}'.format(SOMA))
