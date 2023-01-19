@@ -1,4 +1,5 @@
 # URI
+***
 URI Online Judge 
 
-Problemas resolvidos durante a graduação 
+Problemas resolvidos da plataforma **URI Online Judge**
